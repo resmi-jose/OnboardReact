@@ -1,0 +1,78 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+.ui.modal {
+    display: none;
+    position: fixed;
+    z-index: 1001;
+    top: 25%;
+    left: 22%;
+    text-align: left;
+    width: 90%;
+    margin-left: -45%;
+    background: #fff;
+    border: none;
+    box-shadow: 0 1px 4px 1px rgba(0,0,0,.3);
+    border-radius: .2857rem;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    will-change: top,left,margin,transform,opacity;
+}
+.heading{
+    text-align:center;
+    margin-top:60px;
+}
+.footer {
+    margin-left: 15px;
+    background-color: black;
+}
+.ui.labeled.icon.button > .icon, .ui.labeled.icon.buttons > .button > .icon {
+    top: 0px;
+    left: 0;
+}
+.ui.labeled.icon.button > .icon:after, .ui.labeled.icon.button > .icon:before, .ui.labeled.icon.buttons > .button > .icon:after, .ui.labeled.icon.buttons > .button > .icon:before {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+
+.modals.dimmer .ui.scrolling.modal {
+    margin: -7%;
+}
+#page-numbers >ul>li  {
+    list-style-type: none;
+    margin: 0;
+    display: inline-flex;
+    /* vertical-align: middle; */
+}
+
+#page-numbers > ul > li {
+    width: 2%;
+    cursor:pointer;
+    padding: 1% 2% 1% 1%;
+    margin: 1rem 0;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    background: #fff;
+    font-weight: 400;
+    border: 1px solid rgba(34,36,38,.15);
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    border-radius: .28571429rem;
+    min-height: 1.857143em;
+}
